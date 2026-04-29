@@ -73,7 +73,7 @@
 >>>```bash
 >>>mkdir install
 >>>```
->* download `download_tflite_runtime-2.15.0-cp311-none-linux_aarch64.whl.sh` from [here](https://github.com/PINTO0309/TensorflowLite-bin/tree/main/2.15.0)
+>* download `download_tflite_runtime-2.15.0-cp311-none-linux_aarch64.whl.sh` from [here](https://github.com/PINTO0309/TensorflowLite-bin/blob/main/2.15.0/download_tflite_runtime-2.15.0-cp311-none-linux_aarch64.whl.sh)
 >* copy to Raspi
 >>>```powershell
 >>>scp download_tflite_runtime-2.15.0-cp311-none-linux_aarch64.whl.sh willtek@aidl-raspi5-00:/home/work/install
@@ -90,12 +90,12 @@
 >>>```
 
 ### 6. python moudules
->* Pandas<2.2.0
->* opencv<4.10
->* ml-dtypes~=0.2.0
->* jax<0.4.20
->* jaxlib<0.4.20
->* mediapipe<=0.10.11
+>* "pandas<2.2.0"
+>* "opencv-python<4.10"
+>* "ml-dtypes~=0.2.0"
+>* "jax<0.4.20"
+>* "jaxlib<0.4.20"
+>* "mediapipe>=0.10.11,<0.10.15"
 >* cvzone
 >* h5py
 >* ai-edge-litert
