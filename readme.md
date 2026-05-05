@@ -90,12 +90,12 @@
 >>>```
 
 ### 6. python moudules
->* "pandas==2.1.4"
 >* "opencv-python==4.10.0.84"
->* "ml-dtypes~=0.2.0"
+>* "mediapipe==0.10.14"
 >* "jax<0.4.20"
 >* "jaxlib<0.4.20"
->* "mediapipe==0.10.14"
+>* "ml-dtypes~=0.2.0"
+>* "pandas==2.1.4"
 >* cvzone
 >* h5py
 >* ai-edge-litert
